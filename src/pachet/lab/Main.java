@@ -10,13 +10,22 @@ public class Main {
 
     public static void main(String[] arguments) {
 
-
+        /** Am declarat un bebelus */
         Baby david = new Baby();
 
+        /** am setat numele */
         david.name = "David";
+
+        /** am setat ca este baiat */
         david.setMale(true);
+
+        /** am setat greutatea */
         david.weight=3.0;
+
+        /** am setat decibelii */
         david.decibels=100;
+
+        /** david trebuie schimbat */
         david.poop();
 
 

@@ -6,16 +6,14 @@ package pachet.lab;
  */
 public class Baby {
 
+    /** membrii clasei */
     public String name;
     private boolean isMale;
     double weight;
     double decibels;
 
-    public boolean isMale() {
 
-        return isMale;
-    }
-
+     /** functie pentru a seta daca bebelusul este baiat sau fata */
     public void setMale(boolean isMale) {
 
         this.isMale = isMale;
@@ -23,11 +21,14 @@ public class Baby {
 
     int numPoops = 0;
 
+    /** functie pentru a anunta mama ca trebuie schimbat scutecul */
     public void poop() {
         numPoops += 1;
         System.out.println("Dear mother, " +
                 "I have pooped. Ready the diaper.");
     }
+
+
 
 
 }
