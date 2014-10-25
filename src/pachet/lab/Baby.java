@@ -11,6 +11,7 @@ public class Baby {
     private boolean isMale;
     double weight;
     double decibels;
+    int age;
 
 
      /** functie pentru a seta daca bebelusul este baiat sau fata */
@@ -27,6 +28,12 @@ public class Baby {
         System.out.println("Dear mother, " +
                 "I have pooped. Ready the diaper.");
     }
+
+    public void setAge(int value){
+
+        age=value;
+    }
+
 
 
 
