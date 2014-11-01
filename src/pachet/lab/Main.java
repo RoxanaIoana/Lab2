@@ -32,5 +32,45 @@ public class Main {
         System.out.println("The baby name is " + david.name);
 
 
+        Toys toy = new Dolls("Barbie",5);
+        Cars newCar = new Cars("Masina de politie", 3);
+        Dolls babyDoll = new Dolls(null, 0);
+        IHasBattery aCar = new Cars("Bmw", 4);
+
+
+        try {
+
+            ((IHasBattery) toy).works("Ana");
+
+        } catch (BatteryException e) {
+            System.out.println("Exception : " + e.getMessage());
+        }
+
+        newCar.setBattery("Masina de politie");
+        try {
+
+            newCar.works("Masina de politie");
+
+        } catch (Exception e) {
+            System.out.println("Exception : " + e.getMessage());
+        }
+
+
+        try {
+
+            babyDoll.works(null);
+        } catch (Exception e) {
+            System.out.println("Exception : " + e.getMessage());
+        }
+
+
+        try {
+
+            aCar.works("Bmw");
+        } catch (BatteryException e) {
+            System.out.println("Exception : " + e.getMessage());
+        }
+
+
     }
 }
