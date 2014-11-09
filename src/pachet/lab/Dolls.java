@@ -7,8 +7,8 @@ package pachet.lab;
 public class Dolls extends Toys implements IHasBattery {
 
     /** Constructorul default */
-    public Dolls(String tName, int ageC) {
-        super(tName, ageC);
+    public Dolls(String tName) {
+        super(tName);
     }
 
     @Override

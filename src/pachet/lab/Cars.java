@@ -14,8 +14,8 @@ public class Cars extends Toys implements IHasBattery {
     /**
      * Constructorul default
      */
-    public Cars(String tName, int ageC) {
-        super(tName, ageC);
+    public Cars(String tName) {
+        super(tName);
     }
 
     @Override

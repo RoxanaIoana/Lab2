@@ -32,10 +32,10 @@ public class Main {
         System.out.println("The baby name is " + david.name);
 
 
-        Toys toy = new Dolls("Barbie",5);
-        Cars newCar = new Cars("Masina de politie", 3);
-        Dolls babyDoll = new Dolls(null, 0);
-        IHasBattery aCar = new Cars("Bmw", 4);
+        Toys toy = new Dolls("Barbie");
+        Cars newCar = new Cars("Masina de politie");
+        Dolls babyDoll = new Dolls(null);
+        IHasBattery aCar = new Cars("Bmw");
 
 
         try {

@@ -12,7 +12,7 @@ public abstract class Toys {
 
 
     /** Constructorul default */
-    public Toys(String tName, int ageC ) {
+    public Toys(String tName  ) {
         this.toyName=tName;
     }
 
